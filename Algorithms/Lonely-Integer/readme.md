@@ -67,7 +67,7 @@ In the third input, we see 5 elements, 1 and 0 are repeated twice. And the eleme
 ### Java
 ```java
 //Using Counting Sort
-function processData(int[] in) {
+static int lonelyInteger(int[] in) {
 //Input range is given : 1 <= N < 100
   int[] a = new int[100];
 		for (int i = 0; i < a.length; i++) {
